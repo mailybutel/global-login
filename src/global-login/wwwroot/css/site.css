@@ -2,6 +2,25 @@
     background-image: url('../background.jpg');
 }
 
+.card {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.title {
+
+}
+
+.text-input {
+    text-align: left;
+}
+
+.btn-long {
+    width: 100%;
+}
+
+
 .welcome-page .logo {
   width: 64px;
 }
