@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{65D3E258-46B5-4F4D-8375-E7DAF57CA0E3}|SelfHost">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.src.global__login PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="global_login">
+            <Node name="src">
+              <Node name="global_login" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

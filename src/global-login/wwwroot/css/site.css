@@ -1,4 +1,8 @@
-﻿.welcome-page .logo {
+﻿body {
+    background-image: url('../background.jpg');
+}
+
+.welcome-page .logo {
   width: 64px;
 }
 

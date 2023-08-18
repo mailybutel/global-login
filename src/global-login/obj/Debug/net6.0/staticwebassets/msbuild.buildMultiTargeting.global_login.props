@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/global_login.props" />
+</Project>
