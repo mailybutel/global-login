@@ -1,0 +1,17 @@
+name: Build and Deploy Pipeline
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        type: choice
+        description: Select deployment environment
+        required: true
+        options:
+        - Staging
+        - github-pages
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
