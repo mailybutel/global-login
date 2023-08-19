@@ -1,4 +1,4 @@
-name: Build and Deploy Pipeline
+name: Build and Deploy
 
 on:
   workflow_dispatch:
@@ -12,6 +12,17 @@ on:
         - github-pages
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3
+
+      - name: Install dependencies
+        run: dotnet restore
+
+      - name: Build
+        run: dotnet build
+
+      - name: Deploy
+        run: actions/deploy-pages@v2
